@@ -45,15 +45,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 ᴄʜᴀɴɴᴇʟ', url='https://t.me/TheBlackXYZBotz')
+            InlineKeyboardButton('💝 ᴄʜᴀɴɴᴇʟ🖤', url='https://t.me/TheBlackXYZBotz')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/The_Black_XYZ_SupportChat'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/TheBlackXYZ')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ▶️', url='https://t.me/The_Black_XYZ_SupportChat'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🚫', url='https://t.me/TheBlackXYZ')
             ],[
-            InlineKeyboardButton('🤖 ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
+            InlineKeyboardButton('🤖ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ👍', callback_data='clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ💁', callback_data='help'),
+            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ🔥', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         me2 = (await client.get_me()).mention
@@ -354,18 +354,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
 # Please Love & Support 💗💗🙏
     
     elif query.data == "start":
-        buttons = [[
-            InlineKeyboardButton('💝 ᴄʜᴀɴɴᴇʟ', url='https://t.me/TheBlackXYZBotz')
+        buttons =[[
+            InlineKeyboardButton('💝 ᴄʜᴀɴɴᴇʟ🖤', url='https://t.me/TheBlackXYZBotz')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/The_Black_XYZ_SupportChat'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/TheBlackXYZ')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ▶️', url='https://t.me/The_Black_XYZ_SupportChat'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🚫', url='https://t.me/TheBlackXYZ')
             ],[
-            InlineKeyboardButton('🤖 ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
+            InlineKeyboardButton('🤖ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ👍', callback_data='clone')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ💁', callback_data='help'),
+            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ🔥', callback_data='about')
         ]]
-        
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
