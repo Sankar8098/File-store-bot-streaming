@@ -34,12 +34,12 @@ def is_enabled(value, default):
 # Please Love & Support 💗💗🙏
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29450452"))
-API_HASH = environ.get("API_HASH", "54759945ff88b52777eec9a455944d31")
-ADMINS = int(environ.get("ADMINS", "1759982322"))
+API_ID = int(environ.get("API_ID", "23990433"))
+API_HASH = environ.get("API_HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20")
+ADMINS = int(environ.get("ADMINS", "5821871362"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://filestore2s1:filestore2s1@cluster0.6ypf3cg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://sankar:sankar@sankar.lldcdsx.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 DB_URI = environ.get("DB_URI", "mongodb+srv://BlackUseBot:BlackUseBot24@cluster0.vvqv1hz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
@@ -53,9 +53,9 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 # Please Love & Support 💗💗🙏
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "TheBlackXYZFileStoreBot") # your bot username without @
-PICS = (environ.get('PICS', 'https://graph.org/file/517bc12dd5c1347df10f6.jpg')).split() # Bot Start Picture
+BOT_TOKEN = environ.get("BOT_TOKEN", "7450625675:AAHjQluqyBm8SsIY8PBju8rkSzHB0v_pIn4")
+BOT_USERNAME = environ.get("BOT_USERNAME", "File_store_streaming_bot") # your bot username without @
+PICS = (environ.get('PICS', 'https://telegra.ph/file/462b0bbd3623b54672f75.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
