@@ -41,7 +41,7 @@ ADMINS = int(environ.get("ADMINS", "5821871362"))
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://sankar:sankar@sankar.lldcdsx.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "Cluster0")
-DB_URI = environ.get("DB_URI", "mongodb+srv://BlackUseBot:BlackUseBot24@cluster0.vvqv1hz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://skvillage:1234@autofilter.ul9z8je.mongodb.net/?retryWrites=true&w=majority&appName=autofilter")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Credit @TheBlackXYZ.
@@ -62,8 +62,8 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "300")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002101130967"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001860177906')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001870015374"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001837109537')).split()]
 
 # Credit @TheBlackXYZ.
 # Please Don't remove credit.
